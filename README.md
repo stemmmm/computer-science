@@ -83,7 +83,7 @@
 - [데드락](operating-system/07-deadlock.md)
 - [스레드 풀](operating-system/08-thread-pool.md)
 - [연속 메모리 할당](operating-system/09-contiguous-memory-allocation.md)
-- 페이징
+- [페이징](operating-system/10-paging.md)
 - 동기 vs 비동기, Blocking vs Non-blocking
 - 파일 시스템(todo: inode, symbolic link, 절대/상대/정규경로 등)
 
