@@ -96,7 +96,7 @@
 </details>
 
 <details>  
-<summary><h3>PTBR, MMU, TLB의 역할과 필요성에 대해 설명하세요.</h3></summary>
+<summary><h3>PTBR, MMU, TLB에 대해 설명하세요.</h3></summary>
 
 #### PTBR(Page Table Base Register)
 - 현재 실행 중인 프로세스의 페이지 테이블 시작 주소를 저장하는 레지스터
