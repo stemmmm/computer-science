@@ -141,17 +141,62 @@
 </details>
 </details>
 
----
-
 <details>  
-<summary><h3>페이징에서 주소 변환이 일어나는 과정을 설명하세요.</h3></summary>
+<summary><h3>페이징에서 copy on write에 대해 설명하세요.</h3></summary>
 
 </details>
 
-- copy on write
-- 계층적 페이징
-- page fault
-  
+<details>  
+<summary><h3>계층적 페이징에 대해 설명하세요.</h3></summary>
+
+</details>
+
+<details>  
+<summary><h3>FIFO 페이지 교체 알고리즘에 대해 설명하세요.</h3></summary>
+
+<details>  
+<summary><h4>2차 기회 페이지 교체 알고리즘에 대해 설명하세요.</h4></summary>
+
+</details>
+</details>
+
+<details>  
+<summary><h3>최적 페이지 교체 알고리즘에 대해 설명하세요.</h3></summary>
+
+</details>
+
+<details>  
+<summary><h3>LRU 페이지 교체 알고리즘에 대해 설명하세요.</h3></summary>
+
+#### 단점
+- 
+</details>
+
+<details>  
+<summary><h3>Thrashing의 개념과 완화법에 대해 설명하세요.</h3></summary>
+
+#### 개념
+-
+
+#### 발생 원인
+-
+
+#### 완화법
+- 
+</details>
+
+<details>  
+<summary><h3>프레임 할당 방식에 대해 설명하세요.</h3></summary>
+
+#### 정적
+##### 균등 할당 방식
+##### 비례 할당 방식
+
+#### 동적
+##### 작업 집합 모델
+##### 페이지 폴트 빈도
+</details>
+
 <details>  
 <summary><h3>페이징과 세그멘테이션의 차이에 대해 설명하세요.</h3></summary>
 
@@ -162,8 +207,11 @@
 </details>
 
 <details>  
-<summary><h3>Thrashing의 개념과 발생 시 완화법에 대해 설명하세요.</h3></summary>
+<summary><h3>32비트 시스템에서 페이지의 크기가 1KB라면 페이지 테이블의 최대 크기는 몇개일까요?</h3></summary>
 
 </details>
 
-- 32비트 운영체제에서는 램을 최대 4G 까지 사용할 수 있는데, 이 이유를 페이징과 연관 지어 설명하세요.
+<details>  
+<summary><h3>32비트 시스템에서는 램을 최대 4G까지 사용할 수 있는데, 그 이유를 페이징과 연관지어 설명하세요.</h3></summary>
+
+</details>
