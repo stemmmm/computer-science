@@ -1,5 +1,5 @@
 # cs-study
-- 컴퓨터 공학 지식을 모의 면접으로 습득하는 스터디
+- 컴퓨터 공학을 모의 면접으로 학습하는 스터디
 - 레퍼런스: https://github.com/VSFe/Tech-Interview
 
 <br>
