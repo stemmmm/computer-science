@@ -86,16 +86,13 @@
 ## 데이터베이스
 - 데이터베이스 개요
 - SQL
-- SQL Injection
-- 인덱스(Index)
-- 뷰(View)
-- 저장 프로시저(Stored procedure)
-- 트리거(Trigger)
-- 트랜잭션(Transaction)
-  - 트랜잭션 격리 레벨(Transaction Isolation Level)
-  - 락(Lock)
-  - Multi-Version Concurrency Control(MVCC)
-- 정규화(Normalization)
-- 커넥션 풀(Connection Pool)
+- Stored Function, Stored Procedure
+- 트리거
+- 뷰
+- 트랜잭션
+- MVCC
+- 정규화
+- 인덱스
 - 파티셔닝, 샤딩, 레플리케이션
-- NoSQL vs RDB
+- 커넥션 풀
+- NoSQL
