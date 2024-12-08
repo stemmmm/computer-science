@@ -72,7 +72,7 @@
 <br>
 
 ## 데이터베이스
-- 데이터베이스 개요
+- [데이터베이스 개요](database/01-database.md)
 - SQL
 - Stored Function, Stored Procedure
 - 트리거
