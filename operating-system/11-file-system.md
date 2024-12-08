@@ -194,7 +194,7 @@
 > **주의**  
 > 파일 디스크립터 테이블은 프로세스별로 고유하지만, 파일 테이블과 inode 테이블은 시스템 전역에서 공유됨
 
-![file-descriptor[p.png](file-descriptor.png)
+![file-descriptor.png](img/file-descriptor.png)
 </details>
 
 <details>  
