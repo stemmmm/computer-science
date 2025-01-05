@@ -80,6 +80,8 @@
 - 세 계층(External, Conceptual, Internal)으로 구성되며, 각 계층은 독립적으로 정의된 스키마를 가짐
 - 현대 DBMS는 three schema architecture를 기반으로 하지만, 완벽히 계층을 분리하지 않고 일부 혼합된 형태로 구현하는 경우가 많음
 
+<br>
+
 #### 종류
 - 외부 스키마(External Schema): 특정 사용자나 응용 프로그램이 필요로 하는 데이터를 논리적 데이터 모델로 표현한 스키마
 - 개념적 스키마(Conceptual Schema): DB 전체의 논리적 구조를 논리적 데이터 모델로 표현한 스키마
@@ -97,11 +99,43 @@
 - SQL(Structured Query Language): DB와 상호작용하기 위한 표준화된 질의 언어로, DDL, DML 등의 명령어 집합을 포함
 </details>
 
----
-- relational data model
-- relation
-- relational db
+<details>
+<summary><h3>관계형 데이터 모델의 주요 개념들을 수학적 이론에 기반하여 설명하세요.</h3></summary>
 
-- key
-  - 기본키, 왜래키, 후보키, 슈퍼키 등
-- constraint
+> 관계형 데이터 모델은 논리적 데이터 모델 중 하나임
+
+#### 도메인(Domain)
+
+#### 카르테시안 프로덕트(Cartesian Product)
+
+#### 릴레이션(Relation)
+
+#### 튜플(Tuple)
+
+#### n-ary 릴레이션(n-ary Relation)
+
+</details>
+
+<details>
+<summary><h3>슈퍼 키, 후보 키, 기본 키, 왜래 키에 대해 설명하세요.</h3></summary>
+
+#### 슈퍼 키(Super Key)
+
+#### 후보 키(Candidate Key)
+
+#### 기본 키(Primary Key, PK)
+
+#### 왜래 키(Foreign Key, FK)
+
+</details>
+
+<details>
+<summary><h3>DB 제약조건에 대해 설명하세요.</h3></summary>
+
+#### 도메인 제약
+
+#### 키 제약
+
+#### 참조 무결성
+
+</details>
