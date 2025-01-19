@@ -74,9 +74,8 @@
 ## 데이터베이스
 - [데이터베이스 개요](database/01-database.md)
 - SQL
-- Stored Function, Stored Procedure
-- 트리거
-- 뷰
+- Stored Function, Stored Procedure, Trigger
+- View
 - 트랜잭션
 - MVCC
 - 정규화
