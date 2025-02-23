@@ -74,7 +74,8 @@
 ## 데이터베이스
 - [데이터베이스 개요](database/01-database.md)
 - [SQL](database/02-sql.md)
-- 트랜잭션
+- [트랜잭션](database/03-transaction.md)
+- 락
 - MVCC
 - 정규화
 - 인덱스

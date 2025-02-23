@@ -114,5 +114,54 @@ where manager_id is not null;
 - Java에서는 `PreparedStatement` 등을 사용하여 SQL Injection 공격을 예방할 수 있음
 </details>
 
----
-- Stored Function, Stored Procedure, Trigger, View
+<details>
+<summary><h3>Stored Function과 Stored Procedure의 차이에 대해 설명하세요.</h3></summary>
+
+#### Stored Function
+- DB에 저장되어 SQL 문 내에서 호출할 수 있는 사용자 정의 함수
+- 주로 단순 연산이나 데이터 변환 등 단순한 작업에 적합함 
+
+#### Stored Procedure
+- DB에 저장하여 실행할 수 있는 사용자 정의 프로그램
+- SQL 문 내에서 직접 호출할 수 없음
+
+<details>
+<summary><h4>Stored Procedure의 장단점에 대해 설명하세요.</h4></summary>
+
+##### 장점
+- 추상화: 비즈니스 로직을 stored procedure 내부에 캡슐화하고 애플리케이션에서는 호출만 하면 됨 
+- 재사용성: 여러 애플리케이션 서비스에서 하나의 stored procedure를 재사용할 수 있음
+- 네트워크 트래픽: 여러 SQL 문을 하나의 stored procedure로 묶어 실행함으로써 클라이언트와 DB 서버 간의 통신 횟수를 줄일 수 있음
+- 보안: 민감 정보에 직접 접근하지 않고 stored procedure를 통해 접근하도록 함으로써, DB 권한 관리 및 접근 제어 가능
+
+##### 단점
+- 추상화: 비즈니스 로직이 여러 계층에 분산되어 있으면 전체 시스템의 유지보수나 디버깅이 어려워짐
+- 재사용성: 잘못된 재사용은 여러 시스템 간의 결합도를 높여 하나의 변경이 광범위한 영향을 미칠 수 있음
+- 네트워크 트래픽: 애플리케이션 레벨에서 여러 쿼리를 묶어 요청하거나, 캐시를 활용하는 방법으로도 네트워크 트래픽을 최적화할 수 있음
+- 보안: 민감 정보에 대한 접근을 완벽히 제한하기는 어려움
+- DB 부하: 모든 로직을 DB 서버에 집중시키면, DB 서버에 부하가 몰려 전체 시스템 성능에 영향을 줄 수 있음
+</details>
+</details>
+
+<details>
+<summary><h3>Trigger에 대해 설명하세요.</h3></summary>
+
+- DB에서 특정 이벤트(`INSERT`, `UPDATE`, `DELETE` 등)가 발생할 때 자동으로 실행되는 stored procedure
+
+<details>
+<summary><h4>Trigger 사용 시 발생할 수 있는 문제에 대해 설명하세요.</h4></summary>
+
+- 숨겨진 로직: 애플리케이션 코드 상에서 trigger 내부 로직을 알 수 없어 어떤 작업이 수행되는지 파악이 어렵고, 이로 인해 문제가 발생했을 때 디버깅이 어려움
+- 복잡성 증가: 여러 trigger가 존재하면 데이터 변경 흐름을 파악하기 어려워지고, 심한 경우 순환 참조가 발생할 수 있음
+- 성능 문제: 과도한 trigger 사용은 DB에 부담을 주고 응답 속도를 느리게 할 수 있음
+</details>
+</details>
+
+<details>
+<summary><h3>View에 대해 설명하세요.</h3></summary>
+
+- DB에서 하나 이상의 테이블에 대한 `SELECT` 쿼리 결과를 저장하는 가상의 테이블
+- 실제 데이터를 저장하지 않고 테이블의 데이터를 실시간으로 조회함
+- 테이블에 직접 접근하지 않고 필요한 데이터만 노출함으로써, 복잡한 쿼리 결과를 단순화하고 민감 정보를 보호할 수 있음
+- 대부분의 view는 읽기 전용으로 사용됨
+</details>
