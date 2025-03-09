@@ -5,12 +5,41 @@
 <br>
 
 ## 목차
+- [운영체제](#운영체제)
+- [데이터베이스](#데이터베이스)
+- [네트워크](#네트워크)
 - [자료구조](#자료구조)
 - [알고리즘](#알고리즘)
-- [운영체제](#운영체제)
-- [네트워크](#네트워크)
-- [데이터베이스](#데이터베이스)
 - [컴퓨터구조](#컴퓨터구조)
+
+<br>
+
+## 운영체제
+- [운영체제 개요](operating-system/01-operating-system.md)
+- [프로세스와 스레드](operating-system/02-process-thread.md)
+- [프로세스 상태와 계층 구조](operating-system/03-process-state-and-hierarchy.md)
+- [CPU 스케줄링](operating-system/04-cpu-scheduling.md)
+- [동기화](operating-system/05-synchronization.md)
+- [동기화 기법](operating-system/06-synchronization-techniques.md)
+- [데드락](operating-system/07-deadlock.md)
+- [스레드 풀](operating-system/08-thread-pool.md)
+- [연속 메모리 할당](operating-system/09-contiguous-memory-allocation.md)
+- [페이징](operating-system/10-paging.md)
+- [파일 시스템](operating-system/11-file-system.md)
+
+<br>
+
+## 데이터베이스
+- [데이터베이스 개요](database/01-database.md)
+- [SQL](database/02-sql.md)
+- [트랜잭션](database/03-transaction.md)
+- 락
+- MVCC
+- 정규화
+- 인덱스
+- 파티셔닝, 샤딩, 레플리케이션
+- 커넥션 풀
+- NoSQL
 
 <br>
 
@@ -40,21 +69,6 @@
 
 <br>
 
-## 운영체제
-- [운영체제 개요](operating-system/01-operating-system.md)
-- [프로세스와 스레드](operating-system/02-process-thread.md)
-- [프로세스 상태와 계층 구조](operating-system/03-process-state-and-hierarchy.md)
-- [CPU 스케줄링](operating-system/04-cpu-scheduling.md)
-- [동기화](operating-system/05-synchronization.md)
-- [동기화 기법](operating-system/06-synchronization-techniques.md)
-- [데드락](operating-system/07-deadlock.md)
-- [스레드 풀](operating-system/08-thread-pool.md)
-- [연속 메모리 할당](operating-system/09-contiguous-memory-allocation.md)
-- [페이징](operating-system/10-paging.md)
-- [파일 시스템](operating-system/11-file-system.md)
-
-<br>
-
 ## 네트워크
 - 네트워크 개요
 - OSI 모델 vs TCP/IP 모델
@@ -68,20 +82,6 @@
 - HTTPS
 - SOP와 CORS
 - XSS와 CSRF
-
-<br>
-
-## 데이터베이스
-- [데이터베이스 개요](database/01-database.md)
-- [SQL](database/02-sql.md)
-- [트랜잭션](database/03-transaction.md)
-- 락
-- MVCC
-- 정규화
-- 인덱스
-- 파티셔닝, 샤딩, 레플리케이션
-- 커넥션 풀
-- NoSQL
 
 <br>
 
