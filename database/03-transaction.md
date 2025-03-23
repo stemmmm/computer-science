@@ -124,5 +124,5 @@
 <details>
 <summary><h3>Snapshot Isolation에 대해 설명하세요.</h3></summary>
 
-- [트랜잭션 격리 수준](https://stemmm.tistory.com/5)
+- [스냅샷 격리](https://stemmm.tistory.com/5)
 </details>
