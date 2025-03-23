@@ -1,7 +1,5 @@
 # 트랜잭션
 
-- [트랜잭션 격리 수준](https://stemmm.tistory.com/4)
-
 <details>
 <summary><h3>트랜잭션에 대해 설명하세요.</h3></summary>
 
@@ -118,43 +116,13 @@
 </details>
 
 <details>
-<summary><h3>Dirty Read에 대해 설명하세요.</h3></summary>
+<summary><h3>트랜잭션 격리 수준에 대해 설명하세요.</h3></summary>
 
-- 아직 커밋되지 않은 데이터의 변경 사항을 읽는 현상
-- 변경을 수행한 트랜잭션이 롤백되면, 이를 읽은 트랜잭션은 더 이상 유효하지 않은 데이터를 참조하게 됨
-- 롤백이 발생하지 않아도 dirty read가 발생할 수 있음
-
-![dirty-read](img/dirty-read.png)
+- [트랜잭션 격리 수준](https://stemmm.tistory.com/4)
 </details>
 
 <details>
-<summary><h3>Non-Repeatable Read에 대해 설명하세요.</h3></summary>
+<summary><h3>Snapshot Isolation에 대해 설명하세요.</h3></summary>
 
-- 같은 트랜잭션 내에서 같은 데이터를 여러 번 읽었을 때, 중간에 다른 트랜잭션에 의해 변경되어 값이 달라지는 현상
-
-![non-repeatable-read.png](img/non-repeatable-read.png)
-</details>
-
-<details>
-<summary><h3>Phantom Read에 대해 설명하세요.</h3></summary>
-
-- 트랜잭션 내에서 동일한 조건으로 데이터를 검색했을때, 이전에는 없던 새로운 데이터가 나타나는 현상
-- 꼭 동일한 조건으로 다시 검색하는 상황이 아니어도 됨
-
-![phantom-read.png](img/phantom-read.png)
-</details>
-
-<details>
-<summary><h3>MySQL 트랜잭션 격리 수준에 대해 설명하세요.</h3></summary>
-
-- SQL 표준을 따름
-- 위 문제를 모두 방지하면 데이터 일관성은 보장되지만, 동시성 제어로 인한 성능 저하가 발생할 수 있음
-- 따라서 필요에 따라 격리 수준을 선택해서 사용할 수 있음
-
-| 격리 수준            | Dirty Read | Non-Repeatable Read | Phantom Read |
-|------------------|------------|---------------------|--------------|
-| Read Uncommitted | 허용         | 허용                  | 허용           | 
-| Read Committed   | 방지         | 허용                  | 허용           | 
-| Repeatable Read  | 방지         | 방지                  | 허용           | 
-| Serializable     | 방지         | 방지                  | 방지           |
+- [트랜잭션 격리 수준](https://stemmm.tistory.com/5)
 </details>
