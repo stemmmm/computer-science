@@ -33,8 +33,8 @@
 - [데이터베이스 개요](database/01-database.md)
 - [SQL](database/02-sql.md)
 - [트랜잭션](database/03-transaction.md)
-- 락
-- MVCC
+- [락](https://stemmm.tistory.com/6)
+- [MVCC](https://stemmm.tistory.com/7)
 - 정규화
 - 인덱스
 - 파티셔닝, 샤딩, 레플리케이션
