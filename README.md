@@ -35,11 +35,11 @@
 - [트랜잭션](database/03-transaction.md)
 - [락](https://stemmm.tistory.com/6)
 - [MVCC](https://stemmm.tistory.com/7)
-- 정규화
-- 인덱스
-- 파티셔닝, 샤딩, 레플리케이션
+- [인덱스](https://stemmm.tistory.com/8)
 - 커넥션 풀
 - NoSQL
+- 파티셔닝, 샤딩, 레플리케이션
+- 정규화
 
 <br>
 
@@ -52,7 +52,7 @@
 - 응용 계층
 - 쿠키, 세션, JWT
 - 로드 밸런싱
-- 포워드 프록시와 리버스 프록시
+- 포워드 프록시 vs 리버스 프록시
 - HTTPS
 - SOP와 CORS
 - XSS와 CSRF
