@@ -28,11 +28,10 @@
 - [인덱스](https://stemmm.tistory.com/8)
 - 정규화
 - 커넥션 풀
+- NoSQL
 - 파티셔닝
 - 샤딩
 - 레플리케이션
-- NoSQL
-
 
 <br>
 
