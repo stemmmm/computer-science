@@ -37,7 +37,7 @@
 
 ## 네트워크
 - [네트워크 개요](network/01-network.md)
-- 물리 계층과 데이터 링크 계층
+- [물리 계층과 데이터 링크 계층](network/02-physical-and-data-link-layer.md)
 - 네트워크 계층
 - 전송 계층
 - 응용 계층
