@@ -23,9 +23,9 @@
 - [데이터베이스 개요](database/01-database.md)
 - [SQL](database/02-sql.md)
 - [트랜잭션](database/03-transaction.md)
-- [락](https://stemmm.tistory.com/6)
-- [MVCC](https://stemmm.tistory.com/7)
-- [인덱스](https://stemmm.tistory.com/8)
+- 락
+- MVCC
+- 인덱스
 - 정규화
 - 커넥션 풀
 - NoSQL
